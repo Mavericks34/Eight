@@ -65,7 +65,9 @@ public class Main {
 
         System.out.println();
         System.out.println("Task 3");
-        int[] number7 = new int[5];
+
+
+        int[] number7 = new int[3];
         for (int rt = number7.length - 1; rt >= 0; rt--) {
             number7[rt] = rt + 1;
             if (rt > 0) {
@@ -75,18 +77,35 @@ public class Main {
             }
         }
         System.out.println();
-
-
-        System.out.println("Task 4");
-
-        int[] number8 = new int[10];
-        for (int bs = 0; bs < number8.length; bs++) {
-            number8[bs] = bs + 1;
-            if (bs % 2 != 0) {
-                number8[bs] += 1;
+        for (int lm = number2.length - 1; lm >= 0;  lm--) {
+            if (lm > 0) {
+                System.out.print(number2[lm] + ",");
+            } else {
+                System.out.print(number2[lm]);
             }
         }
-        System.out.println(Arrays.toString(number8));
+        System.out.println();
+        for (int km = number3.length - 1; km >= 0; km--) {
+            if(km>0) {
+                System.out.print(number3[km] + ",");
+            } else {
+                System.out.print(number3[km]);
+            }
+        }
+
+            System.out.println();
+            System.out.println("Task 4");
+
+            int[] number8 = new int[10];
+            for (int bs = 0; bs < number8.length; bs++) {
+                number8[bs] = bs + 1;
+                if (bs % 2 != 0) {
+                    number8[bs] += 1;
+                }
+            }
+            System.out.println(Arrays.toString(number8));
 
         }
     }
+
+
