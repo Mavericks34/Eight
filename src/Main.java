@@ -77,7 +77,7 @@ public class Main {
             }
         }
         System.out.println();
-        for (int lm = number2.length - 1; lm >= 0;  lm--) {
+        for (int lm = number2.length - 1; lm >= 0; lm--) {
             if (lm > 0) {
                 System.out.print(number2[lm] + ",");
             } else {
@@ -86,26 +86,26 @@ public class Main {
         }
         System.out.println();
         for (int km = number3.length - 1; km >= 0; km--) {
-            if(km>0) {
+            if (km > 0) {
                 System.out.print(number3[km] + ",");
             } else {
                 System.out.print(number3[km]);
             }
         }
 
-            System.out.println();
-            System.out.println("Task 4");
+        System.out.println();
+        System.out.println("Task 4");
 
-            int[] number8 = new int[10];
-            for (int bs = 0; bs < number8.length; bs++) {
-                number8[bs] = bs + 1;
-                if (bs % 2 != 0) {
-                    number8[bs] += 1;
-                }
+        int[] number8 = new int[10];
+        for (int bs = 0; bs < number8.length ; bs++) {
+            number8[bs] = bs + 1;
+            if (bs % 2 == 0) {
+                number8[bs] += 1;
             }
-            System.out.println(Arrays.toString(number8));
-
         }
+        System.out.println(Arrays.toString(number8));
+
     }
+}
 
 
